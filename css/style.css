@@ -1,5 +1,5 @@
 body {background-color: #f1f1f1; font-size: 14px; color: #333333; font-family: 'Nunito Sans', sans-serif; line-height: 30px;}
-.banner {height: 600px; background-image: url(../images/banner.jpg); background-repeat: no-repeat; background-size: cover; color: #ffffff;
+.banner {height: 600px; /*background-image: url(../images/banner.jpg); background-repeat: no-repeat; background-size: cover;*/ color: #ffffff;
    margin-bottom: 50px; padding: 0;}
 .overlay {background: rgba(0,0,0,0.7);
  overflow: hidden;
@@ -11,6 +11,20 @@ body {background-color: #f1f1f1; font-size: 14px; color: #333333; font-family: '
 .color1 {background-color: #e6e6e6}
 .about {background-color: #ececec; margin-bottom: 50px;}
 .fab {font-size: 30px; color: #19B5FE; margin-right: 15px;}
+
+.parallax {
+  /* The image used */
+  background-image: url(../images/banner.jpg);
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* gallery */
 #demo {
