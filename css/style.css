@@ -16,9 +16,6 @@ body {background-color: #f1f1f1; font-size: 14px; color: #333333; font-family: '
   /* The image used */
   background-image: url(../images/banner.jpg);
 
-  /* Set a specific height */
-  min-height: 500px;
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
